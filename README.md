@@ -4,6 +4,10 @@
 One of the simplest issues is related to use of space in a figure. Here is one where the figure is much taller than it needs to be. In the paper itself, it takes up almost an entire page (of A5/ half-page size), when it could be about a third of that size.
 ![schneider 2020 bar plot](https://github.com/wrf/figure-gallery/blob/main/figures/schneider_2020_Fig1.png)
 
+In fact, here is a redo attempt using their data:
+
+![schneider 2020 bar plot remade at compact size](https://github.com/wrf/figure-gallery/blob/main/redo/schneider2020_fig1_redo_example.png)
+
 ## too many labels ##
 After about a dozen or so colors, it becomes difficult to keep track of individual colors. The authors should probably think a bit harder about what they want to say with the figure. A better way of handling this is to make the top 10-or-so factors as colors, and the rest as gray.
 
@@ -48,4 +52,18 @@ Too many lines or points on the same plot can also make graphs hard to interpret
 
 This one tries to show three variables on the same plot, but the lines all look the same and are directly labeled, instead of using separate shapes or lines styles (I'm assuming that colors were not an option then).
 ![Officer 1984 plot](https://github.com/wrf/figure-gallery/blob/main/figures/officer1984_fig1.png)
+
+## paper titles ##
+I can take an additional moment to critique paper titles that are overly generic, in that they say nothing about the results. Vanity journals are especially responsible for this. Maybe we could reword this as ***don't fear the verb***, since most of the first group clearly indicate a *topic* but say nothing about how that *does anything* or relates to anything else.
+
+* [Genomic anatomy of the hippocampus. (2008, Neuron)](https://doi.org/10.1016/j.neuron.2008.12.008)
+* [Low Mid-Proterozoic atmospheric oxygen levels and the delayed rise of animals (2014, Science)](https://www.science.org/doi/10.1126/science.1258410)
+* [Egalitarianism in young children. (2014, Nature)](https://www.nature.com/articles/nature07155)
+* [Mummified seal carcasses in the McMurdo Sound region (1959, Science)](https://www.science.org/doi/10.1126/science.130.3377.716)
+
+versus some ones that make a statement in the title
+
+* [The sirtuin SIRT6 regulates lifespan in male mice. (2012, Nature)](https://www.nature.com/articles/nature10815)
+* [Genomic and archaeological evidence suggest a dual origin of domestic dogs (2016, Science)](https://www.science.org/doi/10.1126/science.aaf3161)
+* [Dragon fish see using chlorophyll (1998, Nature)](https://www.nature.com/articles/30871)
 
