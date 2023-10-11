@@ -8,6 +8,11 @@ In fact, here is a redo attempt using their data:
 
 ![schneider 2020 bar plot remade at compact size](https://github.com/wrf/figure-gallery/blob/main/redo/schneider2020_fig1_redo_example.png)
 
+This one, from a [population genetic study on domestication of chickens](https://doi.org/10.1186/s12915-020-0738-1), could reconsider the usage of space. I would make the 4 photos as a full column on the left so that they are visible at all, make the map larger and clearer, make the PCA plot smaller with larger font since there are only a few points, make the bars shorter for the admixture plot, since there is not very much resolution anyway, and shrink the legend, which takes up a lot of space.
+
+![lawal 2020 figure 1 composite of map and admixture](https://github.com/wrf/figure-gallery/blob/main/figures/lawal2020_12915_2020_738_Fig1_HTML.jpg)
+
+
 ## too many labels ##
 After about a dozen or so colors, it becomes difficult to keep track of individual colors. The authors should probably think a bit harder about what they want to say with the figure. A better way of handling this is to make the top 10-or-so factors as colors, and the rest as gray.
 
