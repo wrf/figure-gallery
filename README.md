@@ -25,6 +25,9 @@ This next one by [Busch 2022](https://doi.org/10.1038/s41467-022-32684-4) turns 
 Many species in this figure by [Kenny 2020](https://doi.org/10.1038/s41467-020-17397-w) end up as black, but the labels are so small that they all look like black squares.
 ![Kenny 2020 Supp Figure 11](https://github.com/wrf/figure-gallery/blob/main/figures/kenny_2020_sfig_11.png)
 
+This can also be a problem without colors. This figure from [Amei 2020](https://doi.org/10.11646/zoosymposia.19.1.9) seems to have other figures in color in the same article, so it is not banned by the journal, but chose a scheme that is very difficult to visually grasp. There are only 10 categories (9 species and then others), so it actually could be in color.
+![Amei 2020 Figure 3](https://github.com/wrf/figure-gallery/blob/main/figures/amei_2020_zootaxa_fig3.png)
+
 ## circular plots ##
 I do not like circular plots, Circos plots, or similar. They typically have the same problem where it is difficult to compare positions since it requires mental rotation of the plot. The [creators of Circos](https://genome.cshlp.org/content/early/2009/06/15/gr.092759.109.abstract) argue that there are some [visual advantages of those plots](http://circos.ca/intro/circular_approach/) - beyond "not the least being the fact that it is attractive." However, attractive, but hard to interpret, does not make a good graph.
 
