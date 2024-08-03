@@ -68,6 +68,7 @@ I can take an additional moment to critique paper titles that are overly generic
 * [Low Mid-Proterozoic atmospheric oxygen levels and the delayed rise of animals (2014, Science)](https://www.science.org/doi/10.1126/science.1258410)
 * [Egalitarianism in young children. (2014, Nature)](https://www.nature.com/articles/nature07155)
 * [Mummified seal carcasses in the McMurdo Sound region (1959, Science)](https://www.science.org/doi/10.1126/science.130.3377.716)
+* [Oxygen tension of the vaginal surface during sexual stimulation in the human (1978, Fertility and Sterility)](https://doi.org/10.1016/s0015-0282(16)43395-9)
 
 versus some ones that make a statement in the title
 
