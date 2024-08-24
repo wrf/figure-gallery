@@ -1,7 +1,7 @@
 # gallery of problematic paper figures #
 
 ## use of space ##
-One of the simplest issues is related to use of space in a figure. Here is one where the figure is much taller than it needs to be. In the paper itself, it takes up almost an entire page (of A5/ half-page size), when it could be about a third of that size.
+One of the simplest issues is related to use of space in a figure. This one about [post-retraction citation](https://link.springer.com/article/10.1007/s11192-020-03631-1) is one where the figure is much taller than it needs to be. In the paper itself, it takes up almost an entire page (of A5/ half-page size), when it could be about a third of that size.
 ![schneider 2020 bar plot](https://github.com/wrf/figure-gallery/blob/main/figures/schneider_2020_Fig1.png)
 
 In fact, here is a redo attempt using their data:
@@ -45,6 +45,14 @@ Here I agree with [Claus Wilke's advice for pie charts](https://clauswilke.com/d
 One can see why these rules are suggested in the case below, where 20 amino acids are given random colors by Excel, and also start with a pie slice that is not relevant to the message of the paper by [Schmidt 2020](https://doi.org/10.1038/s41598-020-77107-w). The pie should start either at 12 o-clock or 3 o-clock with the most relevant slice, or color the slices in some logical way, either to emphasize key amino acids, or to color them by biochemical category as is done in many studies. There is also a lot of white space.
 ![Schmidt 2020 Figure 2](https://github.com/wrf/figure-gallery/blob/main/figures/schmidt_2020_figure_2.png)
 
+Here are a bunch more where pie charts should have been bars. Pie charts *can* be effective with the above rules where there is an explicit "whole" and the target is key fractions, but for something that could have arbitrarily been sampled more (i.e. there was no limit to the number of samples, like taking the first 100 or something), it is better to use bars to just show the counts, as was done here for [Keeling 2014](https://doi.org/10.1371/journal.pbio.1001889).
+
+<img src="https://github.com/wrf/figure-gallery/blob/main/figures/keeling_2014_pbio.1001889.g001.png" alt="Keeling 2014 Figure 1" height="1500">
+
+
+Here are my replots of the same datasets:
+
+![Keeling 2014 replots](https://github.com/wrf/misc-analyses/blob/master/marine_meta/sample-attr_oceanography.png)
 
 ## venn diagrams ##
 These got very popular at the height of the genome paper age. They just look like a sea of numbers.
