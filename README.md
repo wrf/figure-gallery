@@ -1,7 +1,10 @@
 # gallery of problematic paper figures #
 
 ## use of space ##
-One of the simplest issues is related to use of space in a figure. This one about [post-retraction citation](https://link.springer.com/article/10.1007/s11192-020-03631-1) is one where the figure is much taller than it needs to be. In the paper itself, it takes up almost an entire page (of A5/ half-page size), when it could be about a third of that size.
+One of the simplest issues is related to use of space in a figure, such as too much white space, or too much chart junk.
+
+This one about [post-retraction citation](https://link.springer.com/article/10.1007/s11192-020-03631-1) is one where the figure is much taller than it needs to be. In the paper itself, it takes up almost an entire page (of A5/ half-page size), when it could be about a third of that size. Additionally, the Y-axis does not start at 0, which is confusing. 
+
 ![schneider 2020 bar plot](https://github.com/wrf/figure-gallery/blob/main/figures/schneider_2020_Fig1.png)
 
 In fact, here is a redo attempt using their data:
@@ -11,7 +14,6 @@ In fact, here is a redo attempt using their data:
 This one, from a [population genetic study on domestication of chickens](https://doi.org/10.1186/s12915-020-0738-1), could reconsider the usage of space. I would make the 4 photos as a full column on the left so that they are visible at all, make the map larger and clearer, make the PCA plot smaller with larger font since there are only a few points, make the bars shorter for the admixture plot, since there is not very much resolution anyway, and shrink the legend, which takes up a lot of space.
 
 ![lawal 2020 figure 1 composite of map and admixture](https://github.com/wrf/figure-gallery/blob/main/figures/lawal2020_12915_2020_738_Fig1_HTML.jpg)
-
 
 ## too many labels ##
 After about a dozen or so colors, it becomes difficult to keep track of individual colors. The authors should probably think a bit harder about what they want to say with the figure. A better way of handling this is to make the top 10-or-so factors as colors, and the rest as gray.
@@ -29,9 +31,9 @@ This can also be a problem without colors. This figure from [Amei 2020](https://
 ![Amei 2020 Figure 3](https://github.com/wrf/figure-gallery/blob/main/figures/amei_2020_zootaxa_fig3.png)
 
 ## circular plots ##
-I do not like circular plots, Circos plots, or similar. They typically have the same problem where it is difficult to compare positions since it requires mental rotation of the plot. The [creators of Circos](https://genome.cshlp.org/content/early/2009/06/15/gr.092759.109.abstract) argue that there are some [visual advantages of those plots](http://circos.ca/intro/circular_approach/) - beyond "not the least being the fact that it is attractive." However, attractive, but hard to interpret, does not make a good graph.
+I do not like circular plots, Circos plots, or similar. They typically have the same problem where it is difficult to compare positions since it requires mental rotation of the plot, a task that humans are bad at. The [creators of Circos](https://genome.cshlp.org/content/early/2009/06/15/gr.092759.109.abstract) argue that there are some [visual advantages of those plots](http://circos.ca/intro/circular_approach/) - beyond "not the least being the fact that it is attractive." However, attractive, but hard to interpret, does not make a good graph.
 
-These are very common in genomics. For bacterial genomes, it at least makes some sense to represent circular genomes as a circle, but this gets widely misused and abused. In this one from [Kenny 2020](https://doi.org/10.1038/s41467-020-17397-w), no scale bars and no description in the caption, so even though the purple and green peaks are identifiable, it is hard to interpret.
+These are very common in genomics. For bacterial genomes, it at least makes some sense to represent circular genomes as a circle, but this gets widely misused and abused. In this one from [Kenny 2020](https://doi.org/10.1038/s41467-020-17397-w), no scale bars and no description in the caption, so even though the purple and green peaks are identifiable, it is hard to interpret. Also, in that paper, it was not clear that the bacterial genome was complete, so it was not necessarily a circle yet.
 ![Kenny 2020 Supp Figure 11](https://github.com/wrf/figure-gallery/blob/main/figures/kenny_2020_sfig_10_circos_plot.png)
 
 Same goes for the *Lactobacillus genome* by [Van De Guchte 2006](https://doi.org/10.1073/pnas.0603024103). Too many similar colors, things are in the caption that should instead be labeled on the graph.
@@ -49,10 +51,16 @@ Here are a bunch more where pie charts should have been bars. Pie charts *can* b
 
 <img src="https://github.com/wrf/figure-gallery/blob/main/figures/keeling_2014_pbio.1001889.g001.png" alt="Keeling 2014 Figure 1" height="1500">
 
-
 Here are my replots of the same datasets:
 
 ![Keeling 2014 replots](https://github.com/wrf/misc-analyses/blob/master/marine_meta/sample-attr_oceanography.png)
+
+## wrong type of graph ##
+Sometimes points are used that should be lines, or lines instead of bars, or bars instead of points.
+
+This one from [Sun 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4667430/) uses lines that should be bars, since there is no obvious reason that the species (here, the datapoints) are connected to each other - like they are not sequential, they are categorical. There was an order to the species in question based on a phylogenetic tree, which was arbitrary (can be rotated) and is also not displayed in this figure when it should be.
+
+![Sun 2015 Figure 4](https://github.com/wrf/figure-gallery/blob/main/figures/sun2015_ncomms9322-f4.jpg)
 
 ## venn diagrams ##
 These got very popular at the height of the genome paper age. They just look like a sea of numbers.
