@@ -5,7 +5,7 @@ One of the simplest issues is related to use of space in a figure, such as too m
 
 This one about [post-retraction citation](https://link.springer.com/article/10.1007/s11192-020-03631-1) is one where the figure is much taller than it needs to be. In the paper itself, it takes up almost an entire page (of A5/ half-page size), when it could be about a third of that size. Additionally, the Y-axis does not start at 0, which is confusing. 
 
-![schneider 2020 bar plot](https://github.com/wrf/figure-gallery/blob/main/figures/schneider_2020_Fig1.png)
+<img src="https://github.com/wrf/figure-gallery/blob/main/figures/schneider_2020_Fig1.png" alt="schneider 2020 bar plot" height="800">
 
 In fact, here is a redo attempt using their data:
 
@@ -16,7 +16,7 @@ This one, from a [population genetic study on domestication of chickens](https:/
 ![lawal 2020 figure 1 composite of map and admixture](https://github.com/wrf/figure-gallery/blob/main/figures/lawal2020_12915_2020_738_Fig1_HTML.jpg)
 
 ## too many labels ##
-After about a dozen or so colors, it becomes difficult to keep track of individual colors. The authors should probably think a bit harder about what they want to say with the figure. A better way of handling this is to make the top 10-or-so factors as colors, and the rest as gray.
+This is an annoyingly common problem in the metagenomics world, since authors want to show hundreds or thousands of bacterial groups at once. After about a dozen or so colors, it becomes difficult to keep track of individual colors. The authors should probably think a bit harder about what they want to say with the figure. A better way of handling this is to make the top 10-or-so factors as colors, and the rest as gray.
 
 Here in [Klinges 2019](https://www.nature.com/articles/s41396-019-0482-0), the pie charts are only part of the problem, since the stripes and polka dots are much worse.
 ![Klinges 2019 bad pie charts](https://github.com/wrf/figure-gallery/blob/main/figures/klinges2019_bad_figure.jpg)
@@ -26,6 +26,9 @@ This next one by [Busch 2022](https://doi.org/10.1038/s41467-022-32684-4) turns 
 
 Many species in this figure by [Kenny 2020](https://doi.org/10.1038/s41467-020-17397-w) end up as black, but the labels are so small that they all look like black squares.
 ![Kenny 2020 Supp Figure 11](https://github.com/wrf/figure-gallery/blob/main/figures/kenny_2020_sfig_11.png)
+
+Two nested pies are used by [Ling 2010](https://doi.org/10.1186/1471-2164-11-488), with far too many taxa to ever make sense, and in no particular order. The most common color is hidden among the list that it is hard to identify which taxa is actually the largest green pie slice - it is about a quarter down on the right side. These data potentially could be side-by-side bars comparing the two conditions, and anything under 1% should be merged into an "other" category. 
+![Ling 2010 Pie charts](https://github.com/wrf/figure-gallery/blob/main/figures/ling_2010_Fig6_HTML.jpg)
 
 This can also be a problem without colors. This figure from [Amei 2020](https://doi.org/10.11646/zoosymposia.19.1.9) seems to have other figures in color in the same article, so it is not banned by the journal, but chose a scheme that is very difficult to visually grasp. There are only 10 categories (9 species and then others), so it actually could be in color.
 ![Amei 2020 Figure 3](https://github.com/wrf/figure-gallery/blob/main/figures/amei_2020_zootaxa_fig3.png)
