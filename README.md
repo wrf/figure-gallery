@@ -59,7 +59,7 @@ Here are my replots of the same datasets:
 ![Keeling 2014 replots](https://github.com/wrf/misc-analyses/blob/master/marine_meta/sample-attr_oceanography.png)
 
 ## wrong type of graph ##
-Sometimes points are used that should be lines, or lines instead of bars, or bars instead of points.
+Sometimes points are used that should be lines, or lines instead of bars, or bars instead of points. This is generally true above for nearly all pie charts, but can include other chart type.
 
 This one from [Sun 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4667430/) uses lines that should be bars, since there is no obvious reason that the species (here, the datapoints) are connected to each other - like they are not sequential, they are categorical. There was an order to the species in question based on a phylogenetic tree, which was arbitrary (can be rotated) and is also not displayed in this figure when it should be.
 
@@ -71,14 +71,30 @@ These got very popular at the height of the genome paper age. They just look lik
 This one from the [banana genome](https://doi.org/10.1038/nature11241) even put a banana in the middle, further obscuring the numbers.
 ![Dhont 2012 banana venn diagram](https://github.com/wrf/figure-gallery/blob/main/figures/dhont_2012_banana_genome_fig4.png)
 
+A simpler one from the [mountain pine beetle genome](https://pmc.ncbi.nlm.nih.gov/articles/PMC4053930/) has only three groups. The blurred edges on the figure look like it was originally rendered as a JPG, then converted to another format for the paper submission, rather than exported as SVG or PNG in the first place.
+<img src="https://github.com/wrf/figure-gallery/blob/main/figures/keeling_2013_pine_beetle_fig6.jpg" alt="Keeling 2013 Fig 6" height="500">
+
+This one from [the Tribolium genome](https://doi.org/10.1038/nature06784) only included overlaps with humans, making it look like they forgot to include the rest of the data.
+![Richards 2008 Fig3](https://github.com/wrf/figure-gallery/blob/main/figures/richards_2008_Fig3.jpg)
+
 Even in [2020](https://doi.org/10.1371/journal.pntd.0008720), they were still used.
 ![korhonen_2020_pntd.0008720.g002.png](https://github.com/wrf/figure-gallery/blob/main/figures/korhonen_2020_pntd.0008720.g002.png)
 
 ## crowded plots ##
 Too many lines or points on the same plot can also make graphs hard to interpret.
 
-This one tries to show three variables on the same plot, but the lines all look the same and are directly labeled, instead of using separate shapes or lines styles (I'm assuming that colors were not an option then).
+This one from [Officer 1984](https://doi.org/10.1126/science.223.4631.22) tries to show three variables on the same plot, but the lines all look the same and are directly labeled, instead of using separate shapes or lines styles (I'm assuming that colors were not an option then). They instead could have used 3 different shapes.
 ![Officer 1984 plot](https://github.com/wrf/figure-gallery/blob/main/figures/officer1984_fig1.png)
+
+## irregular proportions ##
+This one from [Bar-on 2018](https://doi.org/10.1073/pnas.1711842115) on global biomass fits all the proportions into a square, giving each of them weird shapes.
+![Bar-On 2018 Figure 1](https://github.com/wrf/figure-gallery/blob/main/figures/bar-on_2018_pnas.1711842115fig01.jpeg)
+
+Their dataset had a remake as an infographic by an artist on [VISUAL CAPITALIST](https://www.visualcapitalist.com/all-the-biomass-of-earth-in-one-graphic/). Here the use of cubes is very effective at visualizing the quantities.
+
+<img src="https://www.visualcapitalist.com/wp-content/uploads/2021/08/Biomass_v9.png" alt="Infographic on biomass" height="1400">
+
+The same group also made a paper for the [biomass of mammals](https://doi.org/10.1073/pnas.2204892120), with a similar infographic on [VISUAL CAPITALIST](https://www.visualcapitalist.com/biomass-of-mammals/).
 
 ## paper titles ##
 I can take an additional moment to critique paper titles that are overly generic, in that they say nothing about the results. Vanity journals are especially responsible for this. Maybe we could reword this as ***don't fear the verb***, since most of the first group clearly indicate a *topic* but say nothing about how that *does anything* or relates to anything else.
