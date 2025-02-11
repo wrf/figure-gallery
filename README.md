@@ -30,6 +30,11 @@ Many species in this figure by [Kenny 2020](https://doi.org/10.1038/s41467-020-1
 Two nested pies are used by [Ling 2010](https://doi.org/10.1186/1471-2164-11-488), with far too many taxa to ever make sense, and in no particular order. The most common color is hidden among the list that it is hard to identify which taxa is actually the largest green pie slice - it is about a quarter down on the right side. These data potentially could be side-by-side bars comparing the two conditions, and anything under 1% should be merged into an "other" category. 
 ![Ling 2010 Pie charts](https://github.com/wrf/figure-gallery/blob/main/figures/ling_2010_Fig6_HTML.jpg)
 
+## swapping colors ##
+Color schemes should be consistent within a paper, and within a figure. This figure in [Lebeer et al 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10627828/) gets most of it right, limiting it to 10 colors, the "other" color being gray/brown... except that they swap the colors for different panels in the same figure! In panel A, orange is one species on the tree (L. pasteurii), then a different species in the species distribution in part C (Prevotella), then another in the pie chart in D (Bifidobacterium).
+![Lebeer 2023 Fig 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e4b9/10627828/10b96a6b4b80/41564_2023_1500_Fig2_HTML.jpg)
+
+## in need of colors ##
 This can also be a problem without colors. This figure from [Amei 2020](https://doi.org/10.11646/zoosymposia.19.1.9) seems to have other figures in color in the same article, so it is not banned by the journal, but chose a scheme that is very difficult to visually grasp. There are only 10 categories (9 species and then others), so it actually could be in color.
 ![Amei 2020 Figure 3](https://github.com/wrf/figure-gallery/blob/main/figures/amei_2020_zootaxa_fig3.png)
 
